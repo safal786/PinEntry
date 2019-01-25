@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/otpET1"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@drawable/gradent_ed"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="@dimen/_4sdp" />
+
+            <EditText
+                android:id="@+id/otpET2"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@drawable/gradent_ed"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="@dimen/_4sdp" />
+
+            <EditText
+                android:id="@+id/otpET3"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@drawable/gradent_ed"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="@dimen/_4sdp" />
+
+            <EditText
+                android:id="@+id/otpET4"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@drawable/gradent_ed"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:padding="@dimen/_4sdp" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/blue_trasparent"
+            android:text="Submit"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+</LinearLayout>
